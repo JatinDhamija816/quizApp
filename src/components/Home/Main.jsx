@@ -14,11 +14,11 @@ const Main = () => {
     }
 
     return (
-        <div className='w-1/2 mx-auto sm:w-4/5 md:w-full lg:w-4/5'>
+        <div className='w-1/2 mx-auto sm:w-4/5 md:w-full lg:w-4/5 h-screen'>
             {
                 quizzes.length <= 0
                     ?
-                    <p className='font-semibold text-xl '>Sorry there is no active quiz</p>
+                    <p className='font-semibold text-xl text-center'>Sorry there is no active quiz</p>
                     :
                     <div className='text-xl pb-10'>
                         {
